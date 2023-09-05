@@ -4,8 +4,6 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth
 - Linkedin: https://www.linkedin.com/in/ruth-iang
-- Link to your PowerPoint presentation file
-- Link to your YouTube video
 
 # Background
 This project will focus on classifiying medical device recalls into 3 classes. A recall is when products or corrected or removed because they are in violation of Food and Drug Administration(FDA) laws.
@@ -26,6 +24,24 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 - Each row represents a medical device that is recalled by the FDA in violation of their laws.
 
 # Data Types
+
+    1.) FEI Number: Integer64
+    2.) Recalling Firm Name: Object
+    3.) Product Type: Object
+    4.) Product Classification: Object
+    5.) Status: Object
+    6.) Distribution Pattern: Object
+    7.) Recalling Firm City: Object
+    8.) Recalling Firm State: Object 
+    9.) Recalling Firm Country: Object
+    10.) Center Classification Date: Datetime64[ns]
+    11.) Reason for Recall: Object
+    12.) Product Description: Object
+    13.) Event ID: Integer64: Object 
+    14.) Event Classification: Object
+    15.) Product ID: Integer64
+    16.) Center: Object
+    17.) Recall Details: Object
 
 # Target Variable/Label
 Not all the columns will be used for the analysis or models because not all of them are eessential to the business question at hand. The column "Classification" will be 
