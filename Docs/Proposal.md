@@ -7,6 +7,7 @@
 
 # Background
 This project will focus on classifiying medical device recalls into 3 classes. A recall is when products or corrected or removed because they are in violation of Food and Drug Administration(FDA) laws.
+
 A recall takes place in order to protect the public health from products that has a risk of injury, deception or are defective. In order to determine the degree of health hazard
 imposed by the products, FDA assigns the recalls into classification. Class I represents serious health result or death when exposed to the product or when using it. Class II
 is when a temporary or reversible medical consequences will happen as a result of exposure or usage of the product. Class III represents cases when using or being in the presence
@@ -28,6 +29,6 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 Not all the columns will be used for the analysis or models because not all of them are eessential to the business question at hand. The column "Classification" will be 
 the target variable. There are classification I, II, or III which represents the severity of har caused by the products.
 
-#Potential Features/Predictors:
+# Potential Features/Predictors:
 The column "Reason for Recall" is the feature variable for my model. The reasons listed for recalls will determine how severe the
 potential or actual damage is to the community.
