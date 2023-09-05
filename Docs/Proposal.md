@@ -1,4 +1,4 @@
-# Classifying Medical Recalls 
+# Classification of Medical Device Recalls 
 
 - Author: Ruth Iang
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
