@@ -4,6 +4,8 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth
 - Linkedin: https://www.linkedin.com/in/ruth-iang
+- Link to your PowerPoint presentation file
+- Link to your YouTube video
 
 # Background
 This project will focus on classifiying medical device recalls into 3 classes. A recall is when products or corrected or removed because they are in violation of Food and Drug Administration(FDA) laws.
@@ -20,7 +22,7 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 # Data
 - Sources: This dataset is from FDA Open source data website.
 - Data Size: The dataset is 245.6 MB.
-- Data Shape:  
+- Data Shape: There are 17 columns and there are 2426.
 - Each row represents a medical device that is recalled by the FDA in violation of their laws.
 
 # Data Types
