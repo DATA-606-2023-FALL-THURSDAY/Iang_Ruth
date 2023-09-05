@@ -25,7 +25,7 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 - Data Shape: There are 17 columns and there are 2426.
 - Each row represents a medical device that is recalled by the FDA in violation of their laws.
 
-# Data Types
+# Data Dictionary
 
     1.) FEI Number: Integer64
     2.) Recalling Firm Name: Object, tells us the name of the firms 
