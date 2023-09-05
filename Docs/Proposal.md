@@ -47,7 +47,7 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 
 # Target Variable/Label
 Not all the columns will be used for the analysis or models because not all of them are eessential to the business question at hand. The column "Classification" will be 
-the target variable. There are classification I, II, or III which represents the severity of har caused by the products.
+the target variable. Classification I is has the worst damage to public health. Classification II represents mediocre health damage, and classification III does not lead to much problems. The medical device recalls will be classified into these categories.
 
 # Potential Features/Predictors:
 The column "Reason for Recall" is the feature variable for my model. The reasons listed for recalls will determine how severe the
