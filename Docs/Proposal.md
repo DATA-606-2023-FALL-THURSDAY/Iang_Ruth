@@ -22,7 +22,7 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 # Data
 - Sources: This dataset is from FDA Open source data website.
 - Data Size: The dataset is 245.6 MB.
-- Data Shape: There are 17 columns and there are 2426.
+- Data Shape: There are 17 columns and there are 2426 rows.
 - Each row represents a medical device that is recalled by the FDA in violation of their laws.
 
 # Data Dictionary
