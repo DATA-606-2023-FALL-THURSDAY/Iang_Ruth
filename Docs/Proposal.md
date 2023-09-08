@@ -1,7 +1,7 @@
 # Classification of Medical Device Recalls 
 
 - Author: Ruth Iang
-- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+- Prepared for UMBC Data Science Masters Degree Capstone 
 - https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth
 - Linkedin: https://www.linkedin.com/in/ruth-iang
 - Link to your PowerPoint presentation file
