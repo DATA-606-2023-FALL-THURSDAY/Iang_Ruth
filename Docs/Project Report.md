@@ -54,10 +54,13 @@ The column "Reason for Recall" is the feature variable for my model. The reasons
 potential or actual damage is to the community.
 
 # Explaratory Data Analysis
--Data Cleansing: I checked to see if there were null values and duplicate values. And there were duplicates values that I dropped.
--Data Preparation: Because this dataset is a text data, I normalized the feature column, "Reason for Recall" but tokeninizing, changing all letetrs to lowercase, keeping only stopwords, and stemming the words. This process keeps only the most important words for data preprocessing later on. Moreover, it helps to classify the devices.
+- Data Cleansing: I checked to see if there were null values and duplicate values. And there were duplicates values that I dropped.
+- Data Preparation: Because this dataset is a text data, I normalized the feature column, "Reason for Recall" but tokeninizing, changing all letetrs to lowercase, keeping only stopwords, and stemming the words. This process keeps only the most important words for data preprocessing later on. Moreover, it helps to classify the devices.
 
 - Visualizations:
+  
   <img width="584" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/af1bef98-97d6-453f-813c-cb436356e449">
+- This pie chart shows us that many of the classifications in the datste are classification 2 which means the health effects of many of these devices are mediocre. There are barely and Class III which means many of the devices with classifications aren't too many, or maybe they aren't too mnay complaints with devices that fall into category 3.
 
-    
+- <img width="1338" alt="Screen Shot 2023-10-07 at 6 13 55 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a45813b6-3b39-4cee-893c-3ac12f8d05b8">
+
