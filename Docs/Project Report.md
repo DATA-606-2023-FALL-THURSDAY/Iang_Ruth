@@ -47,8 +47,17 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 
 # Target Variable/Label
 Not all the columns will be used for the analysis or models because not all of them are eessential to the business question at hand. The column "Event Classification" will be 
-the target variable. "Event Classification" is how the products are classified into after doing an investigation. Classification I is has the worst damage to public health. Classification II represents mediocre health damage, and classification III does not lead to much problems. The medical device recalls will be classified into these categories.
+the target variable. "Event Classification" is how the products are classified into after doing an investigation. Classification I has the worst damage to public health. Classification II represents mediocre health damage, and classification III does not cause much health problems. The medical device recalls will be classified into these categories.
 
 # Potential Features/Predictors:
 The column "Reason for Recall" is the feature variable for my model. The reasons listed for recalls will determine how severe the
 potential or actual damage is to the community.
+
+# Explaratory Data Analysis
+-Data Cleansing: I checked to see if there were null values and duplicate values. And there were duplicates values that I dropped.
+-Data Preparation: Because this dataset is a text data, I normalized the feature column, "Reason for Recall" but tokeninizing, changing all letetrs to lowercase, keeping only stopwords, and stemming the words. This process keeps only the most important words for data preprocessing later on. Moreover, it helps to classify the devices.
+
+- Visualizations:
+  <img width="584" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/af1bef98-97d6-453f-813c-cb436356e449">
+
+    
