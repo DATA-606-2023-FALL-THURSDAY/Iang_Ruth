@@ -67,3 +67,5 @@ potential or actual damage is to the community.
 - The bar chart shows the same distribution as the pie chart above. There is imbalanced distribution between the classes.
 
 <img width="694" alt="Screen Shot 2023-10-07 at 6 19 32 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/337183e7-f429-4aeb-9dbc-bd65a415f63f">
+
+- The word frequency distribution plot shows which words occur the most in the dataset. As shown may, result, and potential appeared the most. And it makes sense in this context because such words would appear since the device would result in specific consequences. Also, many of the words are devices, kit, surgical items, procedures and so on. This shows what kind of medical devices are being recalled the most in the dataset.
