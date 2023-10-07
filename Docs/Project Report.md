@@ -65,3 +65,5 @@ potential or actual damage is to the community.
  <img width="1338" alt="Screen Shot 2023-10-07 at 6 13 55 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a45813b6-3b39-4cee-893c-3ac12f8d05b8">
 
 - The bar chart shows the same distribution as the pie chart above. There is imbalanced distribution between the classes.
+
+<img width="694" alt="Screen Shot 2023-10-07 at 6 19 32 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/337183e7-f429-4aeb-9dbc-bd65a415f63f">
