@@ -21,9 +21,10 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
 
 # Data
 - Sources: This dataset is from FDA Open source data website.
-- Data Size: The dataset is 245.6 MB.
-- Data Shape: There are 17 columns and there are 2426 rows.
+- Data Size: The dataset is 6.2 MB.
+- Data Shape: There are 17 columns and there are 31012 rows.
 - Each row represents a medical device that is recalled by the FDA in violation of their laws.
+- The dataset has medical devices being recalled by the FDA for the last 11 years, from 2012 to October of 2023.
 
 # Data Dictionary
 
@@ -55,7 +56,7 @@ potential or actual damage is to the community.
 
 # Explaratory Data Analysis
 - Data Cleansing: I checked to see if there were null values and duplicate values in the dataset, which I later dropped.
-- Data Preparation: Because this dataset is a text data, I normalized the feature column, "Reason for Recall" by tokeninizing, changing all letters to lowercase, keeping only stopwords, and stemming the words. This process keeps only the most important words for data preprocessing later on. Moreover, it helps to classify the devices.
+- Data Preparation: Because this dataset is a text data, I normalized the feature column, "Reason for Recall" by tokeninizing, changing all letters to lowercase, keeping only stopwords, and stemming the words. This process keeps only the most important words in context of the topic for data preprocessing later on. Moreover, it helps to classify the devices more accurately..
 
 - Visualizations:
   
@@ -68,4 +69,4 @@ potential or actual damage is to the community.
 
 <img width="694" alt="Screen Shot 2023-10-07 at 6 19 32 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/337183e7-f429-4aeb-9dbc-bd65a415f63f">
 
-- The word frequency distribution plot shows which words occur the most in the dataset. As shown, "may", "result", and "potential" appeared the most. And it makes sense in this context because such words would appear since the device would result in specific consequences. Also, many of the words are devices, kit, surgical items, procedures and so on. This shows what kind of medical devices are being recalled the most in the dataset.
+- The WordCloud shows which words occur the most in the dataset. As shown, "may", "result","steril" and "compromis" are the words with the largest font. The size od the font is correlated with the frequency of the words in the feature varaible. And it makes sense in this context because such words would appear since the device would result in specific consequences. Also, many of the words are devices, kit, surgical items, procedures and so on. This shows what kind of medical devices are being recalled the most in the dataset.
