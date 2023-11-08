@@ -82,9 +82,11 @@ In addition, the confusion matrix heatmap visualizes how much of each classes it
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
 
-After tuning the model, the best parameter is an alpha value of 0.1 with an accuracy of 0.954.The second model used for classification is Random Forest Classifier. After training the model, the accuracy score is .995, the precision score is .937, and the recall is .995. The random model classifier performed better than the multinomial naive bayes model. The classification report below also shows the performance of the model. In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices. It shows what the model predicts, and what the actual classification of the device is. After tuning the parameter in case there is overfitting in play, the accuracy score is 99.47% which tells us most of the predictions are accurate, so we can say the model is doing an excellent job at categorizing the investigated devices.
+After tuning the model, the best parameter is an alpha value of 0.1 with an accuracy of 0.954.The second model used for classification is Random Forest Classifier. After training the model, the accuracy score is .995, the precision score is .937, and the recall is .995. The random model classifier performed better than the multinomial naive bayes model. The classification report below also shows the performance of the model. 
 
   <img width="500" alt="Screen Shot 2023-11-07 at 9 31 12 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e51aeb4a-5ae3-4860-afa6-9cdda7edb24f">
+
+In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices. It shows what the model predicts, and what the actual classification of the device is. After tuning the parameter in case there is overfitting in play, the accuracy score is 99.47% which tells us most of the predictions are accurate, so we can say the model is doing an excellent job at categorizing the investigated devices.
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 36 33 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a76153c5-26d0-4f20-b0ac-a7566099e9a5">
 
