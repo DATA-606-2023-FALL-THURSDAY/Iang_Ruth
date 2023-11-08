@@ -63,7 +63,7 @@ potential or actual damage is to the community.
   <img width="584" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/af1bef98-97d6-453f-813c-cb436356e449">
 - This pie chart shows us that most of the classifications in the datasets are classification II which means the health effects of many of these devices are mediocre. There are barely Class III which means many of the devices with classifications II aren't too many, or maybe they aren't too many complaints with devices in that category.
 
- <img width="800" alt="Screen Shot 2023-10-07 at 6 13 55 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a45813b6-3b39-4cee-893c-3ac12f8d05b8">
+ <img width="800" height="500" alt="Screen Shot 2023-10-07 at 6 13 55 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a45813b6-3b39-4cee-893c-3ac12f8d05b8">
 
 - The bar chart shows the same distribution as the pie chart above meaning there is imbalanced distribution between the classes.
 
