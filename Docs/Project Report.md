@@ -80,13 +80,13 @@ The first model used to classify the descriptions of the medical devices is Mult
 
 In addition, the confusion matrix heatmap visualizes how much of each classes it predicts, and how much are actually accurate. For example, the model classified 4,862 of the recalled medical devices into class II accurateky, 146 into class I while it is actually III, and 238 into class II when it is actually class I. Hence, the model is doing a pretty good job classifying the data into the correct categories.
 
-<img width="405" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
+<img width="500" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
 
 After tuning the model, the best parameter is an alpha value of 0.1 with an accuracy of 0.954.The second model used for classification is Random Forest Classifier. After training the model, the accuracy score is .995, the precision score is .937, and the recall is .995. The random model classifier performed better than the multinomial naive bayes model. The classification report below also shows the performance of the model. In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices. It shows what the model predicts, and what the actual classification of the device is. After tuning the parameter in case there is overfitting in play, the accuracy score is 99.47% which tells us most of the predictions are accurate, so we can say the model is doing an excellent job at categorizing the investigated devices.
 
   <img width="500" alt="Screen Shot 2023-11-07 at 9 31 12 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e51aeb4a-5ae3-4860-afa6-9cdda7edb24f">
 
-<img width="407" alt="Screen Shot 2023-11-07 at 9 36 33 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a76153c5-26d0-4f20-b0ac-a7566099e9a5">
+<img width="500" alt="Screen Shot 2023-11-07 at 9 36 33 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a76153c5-26d0-4f20-b0ac-a7566099e9a5">
 
 Last, but not least a simple neural network, long short term memory, lstm is used to see if can do a better job than the two machine learning models. After training the model, it performed with an accuracy of .9278. So the lastm model doesn't do better than the machine learning models.
 
