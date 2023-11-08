@@ -70,3 +70,17 @@ potential or actual damage is to the community.
 <img width="593" alt="Screen Shot 2023-11-07 at 9 07 08 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a8eaefc5-1984-4a01-8395-f360cfe4e4e9">
 
 - The WordCloud shows which words occur the most in the dataset. As shown, "may", "result","steril" and "compromis" are the words with the largest font. The size od the font is correlated with the frequency of the words in the feature varaible. And it makes sense in this context because such words would appear since the device would result in specific consequences. Also, many of the words are devices, kit, surgical items, procedures and so on. This shows what kind of medical devices are being recalled the most in the dataset.
+
+# Model Training and Deployment
+-The vectorizer TF-IDF is used to transform the feature, column with texts into a numerical columns, so Machine learning models can understand it when training the dataset.
+-Synthetic Minority Over-sampling Technique, SMOTE is used to increase the samples for the minority classes since the dataset has heavy imbalanced datasets. This technique will be useful for class III and I.
+
+- The first model used to classify the descriptions of the medical devices is Multinomial Naive Bayes. Since our classes cannot be classified accurately by binomial classifiers, multinomial classifiers are the ideal preferred choices. After training the model, it has an accuraacy of .937, A Precision of .937, F1-score of .936,and Recall of .937. The image below also displays the classification for how well the model is performing.
+
+<img width="360" alt="Screen Shot 2023-11-07 at 9 18 50 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e67241c1-6a92-408b-ac0c-df3faa50b90b">
+
+In addition, the confusion matrix heatmap visualizes how much of each classes it predicts, and how much are actually accurate. For example, the model classified 4,862 of the recalled medical devices into class II accurateky, 146 into class I while it was actually III, and 238 into class II when it was actually class I. Hence, the model is doing a pretty good job classifying the data into the correct categories.
+
+<img width="405" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
+
+
