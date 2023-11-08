@@ -20,11 +20,11 @@ harm. And this is why my project will focus on classifiying FDA devices into the
 devices, using Natural Language Processing and Machine Learning Algortithms will save time.
 
 # Data
-Sources: This dataset is from FDA Open source data website.
-Data Size: The dataset is 6.2 MB.
-Data Shape: There are 17 columns and there are 31012 rows.
-Each row represents a medical device that is recalled by the FDA in violation of their laws.
-The dataset has medical devices being recalled by the FDA for the last 11 years, from 2012 to October of 2023.
+- Sources: This dataset is from FDA Open source data website.
+- Data Size: The dataset is 6.2 MB.
+- Data Shape: There are 17 columns and there are 31012 rows.
+- Each row represents a medical device that is recalled by the FDA in violation of their laws.
+- The dataset has medical devices being recalled by the FDA for the last 11 years, from 2012 to October of 2023.
 
 # Data Dictionary
 
