@@ -68,7 +68,7 @@ This pie chart shows us that most of the classifications in the datasets are cla
 
 The bar chart shows the same distribution as the pie chart above meaning there is imbalanced distribution between the classes.
 
-<img width="593" alt="Screen Shot 2023-11-07 at 9 07 08 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a8eaefc5-1984-4a01-8395-f360cfe4e4e9">
+<img width="800" alt="Screen Shot 2023-11-07 at 9 07 08 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a8eaefc5-1984-4a01-8395-f360cfe4e4e9">
 
 The WordCloud shows which words occur the most in the dataset. As shown, "may", "result","steril" and "compromis" are the words with the largest font. The size od the font is correlated with the frequency of the words in the feature varaible. And it makes sense in this context because such words would appear since the device would result in specific consequences. Also, many of the words are devices, kit, surgical items, procedures and so on. This shows what kind of medical devices are being recalled the most in the dataset.
 
