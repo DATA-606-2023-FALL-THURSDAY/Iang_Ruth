@@ -4,7 +4,7 @@
 - Prepared for UMBC Data Science Masters Degree Capstone 
 - https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth
 - Linkedin: https://www.linkedin.com/in/ruth-iang
-- Link to your PowerPoint presentation file
+- Link to your PowerPoint presentation file: https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/blob/main/Docs/DATA%20606%20Capstone%20Project.pdf
 - Link to your YouTube video
 
 # Background
