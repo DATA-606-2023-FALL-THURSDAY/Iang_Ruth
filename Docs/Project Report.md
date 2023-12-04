@@ -1,4 +1,4 @@
-# Classification of Medical Device Recalls 
+# Text Classification of Medical Device Recalls 
 
 - Author: Ruth Iang
 - Prepared for UMBC Data Science Masters Degree Capstone Class, Fall 2023
@@ -8,16 +8,11 @@
 - Link to your YouTube video
 
 # Background
-This project will focus on classifiying medical device recalls into 3 classes. A recall is when products are corrected or removed because they are in violation of Food and Drug Administration(FDA) laws.
+This project aims to categorize medical device recalls into three classes based on the severity of their violations of Food and Drug Administration (FDA) laws. Recalls occur when products need correction or removal due to potential risks of injury, deception, or defects, with the goal of safeguarding public health.
 
-A recall takes place in order to protect the public health from products that has a risk of injury, deception or are defective. In order to determine the degree of health hazard
-imposed by the products, FDA assigns the recalls into classification. Class I represents serious health result or death when exposed to the product or when using it. Class II
-is when a temporary or reversible medical consequences will happen as a result of exposure or usage of the product. Class III represents cases when using or being in the presence
-of the product does not lead to severe health problems. 
+The FDA classifies recalls into three categories to assess the level of health hazard posed by the products. Class I indicates a high risk, potentially resulting in serious health complications or even death. Class II involves temporary or reversible medical consequences upon exposure or usage. Class III encompasses situations where product use or presence does not pose severe health risks.
 
-Medical device recalls is important because it advocates for the protection of public well being from devices that could cause
-harm. And this is why my project will focus on classifiying FDA devices into their classification based on the provided reasons for recalls. Instead of manually classifiying these
-devices, using Natural Language Processing and Machine Learning Algortithms will save time.
+The significance of medical device recalls lies in their role in safeguarding public well-being from potentially harmful devices. This project focuses on automating the classification of FDA devices into their respective categories based on provided recall reasons. Leveraging Natural Language Processing and Machine Learning Algorithms will streamline and expedite the classification process, eliminating the need for manual sorting.
 
 # Data
 - Sources: This dataset is from FDA Open source data website.
@@ -47,51 +42,52 @@ devices, using Natural Language Processing and Machine Learning Algortithms will
     17.) Recall Details: Object, the product,and event details along with the history
 
 # Target Variable/Label
-Not all the columns will be used for the analysis or models because not all of them are eessential to the business question at hand. The column "Event Classification" will be 
-the target variable. "Event Classification" is how the products are classified into after doing an investigation. Classification I has the worst damage to public health. Classification II represents mediocre health damage, and classification III does not cause much health problems. The medical device recalls will be classified into these categories.
+Only select columns will undergo analysis or be utilized in the models as not all are crucial to address the core business question. The focal variable will be "Event Classification," serving as the target variable. This column determines the classification of products post-investigation. Classification I denotes the most severe damage to public health, while Classification II signifies moderate health impact. Classification III implies minimal health concerns. The objective is to categorize medical device recalls into these specified classes based on their impact on public health.
 
 # Potential Features/Predictors:
-The column "Reason for Recall" is the feature variable for my model. The reasons listed for recalls will determine how severe the
-potential or actual damage is to the community.
+The feature variable for the model is the "Reason for Recall" column. This variable delineates the reasons cited for recalls, which directly correlate with assessing the potential or actual severity of damage to the community caused by the recalled medical devices.
 
 # Explaratory Data Analysis
-Data Cleansing: I checked to see if there were null values and duplicate values in the dataset, which I later dropped.
-Data Preparation: Because this dataset is a text data, I normalized the feature column, "Reason for Recall" by tokeninizing, changing all letters to lowercase, keeping only stopwords, and stemming the words. This process keeps only the most important words in context of the topic for data preprocessing later on. Moreover, it helps to classify the devices more accurately..
+Data Cleansing: I conducted checks for null and duplicate values within the dataset, subsequently removing any instances found.
+
+Data Preparation: Given that this dataset contains text data, I standardized the feature column, "Reason for Recall," by employing tokenization, converting all text to lowercase, eliminating common stopwords, and performing stemming on the words. This methodology aims to retain only the most pertinent words relevant to the context of the topic for subsequent data preprocessing. Furthermore, this process significantly contributes to enhancing the accuracy of device classification by focusing on crucial textual elements.
 
 Visualizations:
   
   <img width="584" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/af1bef98-97d6-453f-813c-cb436356e449">
   
-This pie chart shows us that most of the classifications in the datasets are classification II which means the health effects of many of these devices are mediocre. There are barely Class III which means many of the devices with classifications II aren't too many, or maybe they aren't too many complaints with devices in that category. Hence, class I and III are minority classes.
+The pie chart illustrates a predominant occurrence of Class II classifications within the dataset, indicating that a significant portion of the devices exhibit a moderate impact on health. Conversely, Class III instances are notably scarce, suggesting either a lower count of devices falling into this category or potentially fewer reported complaints associated with devices in this classification. As a result, both Class I and Class III are observed as minority classes in comparison.
 
 <img width="800" alt="Screen Shot 2023-11-07 at 9 07 08 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a8eaefc5-1984-4a01-8395-f360cfe4e4e9">
 
-The WordCloud shows which words occur the most in the dataset. As shown, "may", "result","steril" and "compromis" are the words with the largest font. The size of the font is correlated with the frequency of the words in the feature varaible. And it makes sense in this context because such words would appear since the device would result in specific consequences. Also, many of the words are devices, kit, surgical items, procedures and so on. This shows what kind of medical devices are being recalled the most in the dataset.
+The WordCloud visually represents the most frequently occurring words within the dataset. Notably, words like "may," "result," "steril," and "compromis" stand out prominently due to their larger font sizes, indicating their higher frequency within the feature variable. In this context, these words are understandably prevalent as they often relate to potential consequences associated with devices.
+
+Additionally, a significant presence of terms such as "devices," "kit," "surgical items," and "procedures" is observed. This pattern sheds light on the types of medical devices most frequently subject to recalls within the dataset, offering insight into the specific categories of devices commonly involved in recall incidents.
 
 # Model Training and Deployment
-The vectorizer TF-IDF is used to transform the feature, column with texts into a numerical columns, so Machine learning models can understand it when training the dataset.Synthetic Minority Over-sampling Technique, SMOTE is used to increase the samples for the minority classes since the dataset has heavy imbalanced datasets. This technique will be useful for class III and I.
+The text feature underwent transformation using TF-IDF vectorization to enable machine learning comprehension. Addressing class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was applied, particularly beneficial for augmenting samples in minority classes, specifically Class III and Class I.
 
 The first model used to classify the descriptions of the medical devices is Multinomial Naive Bayes. Since our classes cannot be classified accurately by binomial classifiers, multinomial classifiers are the ideal preferred choices. After training the model, it has an accuraacy of .937, A Precision of .937, F1-score of .936,and Recall of .937. The image below also displays the classification for how well the model is performing.
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 18 50 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e67241c1-6a92-408b-ac0c-df3faa50b90b">
 
-In addition, the confusion matrix heatmap visualizes how much of each classes it predicts, and how much are actually accurate. For example, the model classified 4,862 of the recalled medical devices into class II accurateky, 146 into class I while it is actually III, and 238 into class II when it is actually class I. Hence, the model is doing a pretty good job classifying the data into the correct categories.
+The confusion matrix heatmap provides a visual representation of the model's predictions across different classes and their accuracy. For instance, the model accurately classified 4,862 recalled medical devices into Class II, accurately predicted 146 instances as Class I when they were actually Class III, and 238 instances as Class II when they were actually Class I. Overall, the model demonstrates proficiency in accurately categorizing the data into their respective classes, showcasing its effectiveness in classification tasks.
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
 
-After tuning the model, the best parameter is an alpha value of 0.1 with an accuracy of 0.954.The second model used for classification is Random Forest Classifier. After training the model, the accuracy score is .995, the precision score is .937, and the recall is .995. The random model classifier performed better than the multinomial naive bayes model. The classification report below also shows the performance of the model. 
+After thorough parameter tuning, the optimal value determined for the Multinomial Naive Bayes model is an alpha value of 0.1, achieving an accuracy of 0.954.Subsequently, employing the Random Forest Classifier as the second model for classification yielded notable results. Post-training, the Random Forest Classifier showcased an accuracy score of .995, a precision score of .937, and a recall of .995. It's noteworthy that the Random Forest Classifier outperformed the Multinomial Naive Bayes model. The classification report below provides a detailed breakdown of the model's performance.
 
   <img width="500" alt="Screen Shot 2023-11-07 at 9 31 12 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e51aeb4a-5ae3-4860-afa6-9cdda7edb24f">
 
-In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices. It shows what the model predicts, and what the actual classification of the device is. After tuning the parameter in case there is overfitting in play, the accuracy score is 99.47% which tells us most of the predictions are accurate, so we can say the model is doing an excellent job at categorizing the investigated devices.
-
+In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices, displaying both the model's predictions and the actual classifications of the devices.Following parameter tuning to mitigate potential overfitting, the accuracy score is 99.47%, which implies a high proportion of accurate predictions, affirming the model's exceptional performance in categorizing the investigated devices.
 <img width="500" alt="Screen Shot 2023-11-07 at 9 36 33 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a76153c5-26d0-4f20-b0ac-a7566099e9a5">
 
-Last, but not least a simple neural network, long short term memory, lstm is used to see if can do a better job than the two machine learning models. After training the model, it performed with an accuracy of .9278. So the lastm model doesn't do better than the machine learning models.
+Wrapping up the analysis, a simple neural network using Long Short-Term Memory (LSTM) was deployed to explore its potential for outperforming the previous machine learning models. Post-training, the LSTM model demonstrated an accuracy of .9278. Unfortunately, the LSTM model did not surpass the performance achieved by the machine learning models, indicating that the machine learning algorithms outperformed the LSTM model in this context.
 
 # Conclusions
-Uing Naive Bayes Models, Random Forest Calssifier, and Long short term memory to categorize the reason for why the mdecial devices were being reccalled, the accuracy of reliable. Steps to prevent overfitting was taken, and smote was sued to balance the abnormal distribution. After takong a;; the appropriate steps to perform classifcation, we can conclude the best model is the random forest classifier with .995 accuracy score. And instead of manually classifiying future FDA recalled medical devices, this model can be used for faster speed and accurate results.
+Using Naive Bayes Models, Random Forest Classifier, and Long Short-Term Memory for categorizing the reasons behind medical device recalls yielded reliable accuracy. Measures to prevent overfitting were diligently employed, including the utilization of SMOTE to rectify the skewed data distribution. Following these meticulous steps for classification, the Random Forest Classifier emerged as the best-performing model, boasting an impressive accuracy score of .995.
 
+This robust model presents a significant advantage in expediting and enhancing the accuracy of future FDA-recalled medical device classifications. The implementation of this model eliminates the need for manual classification, ensuring faster processing and consistently accurate results.
 <img width="910" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/32ac875c-78fe-4f22-8fe5-6b70a22cc54e">
 
 
