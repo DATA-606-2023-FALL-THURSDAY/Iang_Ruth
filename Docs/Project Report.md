@@ -60,10 +60,9 @@ The pie chart illustrates a predominant occurrence of Class II classifications w
 
 <img width="504" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/578125a8-d662-4dc2-bbb7-492d2dd6bdc2">
 
+The WordCloud visually depicts the most frequently occurring words within the dataset. A bilinear approach was utilized to visualize the relationship between two words and their significance within a single layout. Notably, words like "may," "result," "steril," and "compromis" stand out due to their larger font sizes, indicating their higher frequency within the feature variable. In this context, these words are understandably prevalent as they often relate to potential consequences associated with devices.
 
-The WordCloud visually represents the most frequently occurring words within the dataset. Bilinear approach was used to visualize two words and their importance with each other in a single layout. Notably, words like "may," "result," "steril," and "compromis" stand out prominently due to their larger font sizes, indicating their higher frequency within the feature variable. In this context, these words are understandably prevalent as they often relate to potential consequences associated with devices.
-
-Additionally, a significant presence of terms such as "instruct," "use," "barrier","contain" and "kit" is observed. This makes sense in terms of the contact, since the packaging of products contain how to use each devies.
+Additionally, there is a significant presence of terms such as "instruct," "use," "barrier," "contain," and "kit." This makes sense in terms of context, as these terms likely pertain to product packaging containing instructions for device utilization.
 
 # Model Training and Deployment
 The text feature underwent transformation using TF-IDF vectorization to enable machine learning comprehension. Addressing class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was applied, particularly beneficial for augmenting samples in minority classes, specifically Class III and Class I.
