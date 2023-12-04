@@ -54,7 +54,7 @@ Data Preparation: Given that this dataset contains text data, I standardized the
 
 Visualizations:
   
-  <img width="584" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/af1bef98-97d6-453f-813c-cb436356e449">
+<img width="499" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a65e235f-d44e-4279-94b8-485f311eaa12">
   
 The pie chart illustrates a predominant occurrence of Class II classifications within the dataset, indicating that a significant portion of the devices exhibit a moderate impact on health. Conversely, Class III instances are notably scarce, suggesting either a lower count of devices falling into this category or potentially fewer reported complaints associated with devices in this classification. As a result, both Class I and Class III are observed as minority classes in comparison.
 
