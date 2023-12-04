@@ -58,7 +58,7 @@ Visualizations:
   
 The pie chart illustrates a predominant occurrence of Class II classifications within the dataset, indicating that a significant portion of the devices exhibit a moderate impact on health. Conversely, Class III instances are notably scarce, suggesting either a lower count of devices falling into this category or potentially fewer reported complaints associated with devices in this classification. As a result, both Class I and Class III are observed as minority classes in comparison.
 
-<img width="650" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/578125a8-d662-4dc2-bbb7-492d2dd6bdc2">
+<img width="550" alt="image" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/578125a8-d662-4dc2-bbb7-492d2dd6bdc2">
 
 The WordCloud visually depicts the most frequently occurring words within the dataset. A bilinear approach was utilized to visualize the relationship between two words and their significance within a single layout. Notably, words like "may," "result," "steril," and "compromis" stand out due to their larger font sizes, indicating their higher frequency within the feature variable. In this context, these words are understandably prevalent as they often relate to potential consequences associated with devices.
 
