@@ -47,7 +47,7 @@ Only select columns will undergo analysis or be utilized in the models as not al
 # Potential Features/Predictors:
 The feature variable for the model is the "Reason for Recall" column. This variable delineates the reasons cited for recalls, which directly correlate with assessing the potential or actual severity of damage to the community caused by the recalled medical devices.
 
-# Explaratory Data Analysis
+# Exploratory Data Analysis
 Data Cleansing: I conducted checks for null and duplicate values within the dataset, subsequently removing any instances found.
 
 Data Preparation: Given that this dataset contains text data, I standardized the feature column, "Reason for Recall," by employing tokenization, converting all text to lowercase, eliminating common stopwords, and performing stemming on the words. This methodology aims to retain only the most pertinent words relevant to the context of the topic for subsequent data preprocessing. Furthermore, this process significantly contributes to enhancing the accuracy of device classification by focusing on crucial textual elements.
