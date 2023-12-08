@@ -71,7 +71,7 @@ The first model used to classify the descriptions of the medical devices is Mult
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 18 50 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e67241c1-6a92-408b-ac0c-df3faa50b90b">
 
-The confusion matrix heatmap provides a visual representation of the model's predictions across different classes and their accuracy. For instance, the model accurately classified 4,862 recalled medical devices into Class II, accurately predicted 146 instances as Class I when they were actually Class III, and 238 instances as Class II when they were actually Class I. Overall, the model demonstrates proficiency in accurately categorizing the data into their respective classes, showcasing its effectiveness in classification tasks.
+The confusion matrix heatmap provides a visual representation of the model's predictions across different classes and their accuracy. For instance, the model accurately classified 4,862 recalled medical devices into Class II, predicted 146 instances as Class I when they were actually Class III, and 238 instances as Class II when they were actually Class I. Overall, the model demonstrates proficiency in accurately categorizing the data into their respective classes, showcasing its effectiveness in classification tasks.
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
 
