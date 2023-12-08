@@ -75,18 +75,18 @@ The confusion matrix heatmap provides a visual representation of the model's pre
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 21 11 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/628aa88a-6bd6-42e7-ba52-0032d157e90f">
 
-After thorough parameter tuning, the optimal value determined for the Multinomial Naive Bayes model is an alpha value of 0.1, achieving an accuracy of 0.954.Subsequently, employing the Random Forest Classifier as the second model for classification yielded notable results. Post-training, the Random Forest Classifier showcased an accuracy score of .995, a precision score of .937, and a recall of .995. It's noteworthy that the Random Forest Classifier outperformed the Multinomial Naive Bayes model. The classification report below provides a detailed breakdown of the model's performance.
+After thorough parameter tuning, the optimal value determined for the Multinomial Naive Bayes model is an alpha value of 0.1, achieving an accuracy of 0.954.Subsequently, employing the Random Forest Classifier as the second model for classification yielded notable results. Post-training, the Random Forest Classifier showcased an accuracy score of .995, a precision score of .937, and a recall of .995. The classification report below provides a detailed breakdown of the model's performance.
 
   <img width="500" alt="Screen Shot 2023-11-07 at 9 31 12 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/e51aeb4a-5ae3-4860-afa6-9cdda7edb24f">
 
-In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices, displaying both the model's predictions and the actual classifications of the devices.Following parameter tuning to mitigate potential overfitting, the accuracy score is 99.47%, which implies a high proportion of accurate predictions, affirming the model's exceptional performance in categorizing the investigated devices.
+In addition, the confusion matrix heatmap also shows in greater detail how well the model is doing in classifying all of the devices, displaying both the model's predictions and the actual classifications of the devices.Following parameter tuning to mitigate potential overfitting, the accuracy score is 99.47%, which implies a high proportion of accurate predictions, therby affirming the model's exceptional performance in categorizing the investigated devices.
 
 <img width="500" alt="Screen Shot 2023-11-07 at 9 36 33 PM" src="https://github.com/DATA-606-2023-FALL-THURSDAY/Iang_Ruth/assets/98433448/a76153c5-26d0-4f20-b0ac-a7566099e9a5">
 
 Wrapping up the analysis, a simple neural network using Long Short-Term Memory (LSTM) was deployed to explore its potential for outperforming the previous machine learning models. Post-training, the LSTM model demonstrated an accuracy of .9278. Unfortunately, the LSTM model did not surpass the performance achieved by the machine learning models, indicating that the machine learning algorithms outperformed the LSTM model in this context.
 
 # Conclusions
-Using Naive Bayes Models, Random Forest Classifier, and Long Short-Term Memory for categorizing the reasons behind medical device recalls yielded reliable accuracy. Measures to prevent overfitting were diligently employed, including the utilization of SMOTE to rectify the skewed data distribution. Following these meticulous steps for classification, the Random Forest Classifier emerged as the best-performing model, boasting an impressive accuracy score of .995.
+Using Naive Bayes Models, Random Forest Classifier, and Long Short-Term Memory for categorizing the reasons behind medical device recalls yielded reliable accuracy. Measures to prevent overfitting were employed, including the utilization of SMOTE to rectify the skewed data distribution. Following these meticulous steps for classification, the Random Forest Classifier emerged as the best-performing model, boasting an impressive accuracy score of .995.
 
 This robust model presents a significant advantage in expediting and enhancing the accuracy of future FDA-recalled medical device classifications. The implementation of this model eliminates the need for manual classification, ensuring faster processing and consistently accurate results.
 
